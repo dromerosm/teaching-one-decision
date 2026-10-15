@@ -1,0 +1,5945 @@
+{
+ "summary": {
+  "n": 395,
+  "all_fields": 0.9823,
+  "category": 0.9924,
+  "priority": 1.0,
+  "needs_reply": 0.9899,
+  "errors": {
+   "category": {
+    "scheduling->sales": 3
+   },
+   "priority": {},
+   "needs_reply": {
+    "True->False": 4
+   }
+  }
+ },
+ "rows": [
+  {
+   "id": "rl-e44bef4ef1d40c4b",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-4049828aa0b267fa",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-af1eabc60138c727",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-4e96864b780129bc",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-7c3ff6c15261c240",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-1c86cf33db30465b",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-d887b3137dd578fb",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-8c6d21507e0ceb9c",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1a00e6a380f6ab16",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-dbdc028b9a6ff9f9",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a3eda78264364597",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-6e66a8381daaa7f8",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-9e32dfdb3f2ae83f",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-6f8296c6e329543c",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-7fec669844f7bd1b",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-429661875ab87c2b",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-9e29d1da2830b117",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b344215a78957438",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-e5937e8247beee6c",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-2c6ee5aeb3b06676",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-6349ef4fa29ef345",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-fa4a549e251e65b9",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-7e5cbdc909091a47",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-7d87b5c52644045b",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-97756d00abc72602",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-44693131d5fcb3b0",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-bdd4769397bd7a8e",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-34520580c4f926bd",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-eb0628885189d76e",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-7514edb53365e1be",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-08b141030fb06e29",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-f72d69eeebd1f297",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-333ff5a7285bdbd6",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-88446c0c65f44ece",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-4034cf68234c91c7",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-d2a0b6557447011a",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-43af8fb4410974b8",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-ac78e555e6616f76",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-26cce3ce75c1c4eb",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a5926ff439c103bc",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-41db9d8e196ac2cb",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-c5305abc01f4ac8b",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-2fb41385e494e06b",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-78f8d3cac5f68da7",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-2e6ce9497b621a98",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-4b61f6c0a280cb66",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-ff1c93b2bd7dbc58",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-2b39319a836d6826",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-ad5b33e34e205a14",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-bd2e351bc9eb4db8",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-7c3b0b18077a2226",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-0fd2d25b54b8d95d",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-e3fe179fb34ff1fb",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-8c2cf89e2cf5887a",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-38cb9c766c9e9286",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a32570f331398024",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-4ed46a71817d31e8",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-5fefcc80890a5d83",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-1959abf89b72d661",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-0d13c5a8c5403f31",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-23fcb5d1c89bf46c",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-3ea3da6d67dee62b",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-d7b1f855f0fbcfd3",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-bdbbd1c5d04877b1",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-57bc8deb3b0e09b6",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-7d2e24a2c7eefa62",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-8e439ac932c212c4",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-971e88bcdc2ba621",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-8d3108743dfb5e15",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-bb1ae2784f483c91",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-47fc2b9aea438d6a",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-85320d1eb118c338",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1af57db01c95b509",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-f30c9795e1fef95a",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-b12ef3feb23789ae",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-f3561aa6f64ded28",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-3ebc0186881ac67d",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-43a51052e14cbc73",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-807167445e3e8ac7",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-1aca37b87961ac04",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-1cb4da2f7786d87d",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-89f29bccb2f9ec5d",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-c91e5b5ef5af1e93",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-877d5117972f921c",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-bff3c1a823f6f560",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-4aa27460d158a9c5",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-de291f234de5af2c",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-937eca243142537f",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-2ab276c394a303e4",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-cf78b60bcd6e24c5",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-7fcab119b3629ba6",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-82aa1a62126578b1",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-14012e2e858b71f9",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-05b09ca5c0a74427",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-d85845761f65b058",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-8fbd49c173d81525",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-144df33cc37f3296",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a95f35fed3fdbba3",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-de5fa4b4fafb762a",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-749af75286a71ad8",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-6a9a3df0402f2ce9",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-ef8694ed09e2fa49",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-e91d65e268c1f462",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-9b8b8130ca0a8f9e",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-72fb24540e272a2d",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-3dd5ae58d46adf6d",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-b219612641964154",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-2a9659fa0c9240f8",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-7155978e0bf96534",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-471774200eb159c2",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-6ae02dec78e9fc27",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-51d4c337497b2fea",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1ffcc8009367370d",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-8c47906667dd56d2",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-df767ca212985a18",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-63c7544bfad731ff",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-29ef42fad7db1428",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-27473f76ebb5b3a4",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-47475e1e7459438c",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-12dfa31d6bf26bda",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-d12e1357312688c6",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-be64d3cb56cad4d9",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1f1241a5b59163fd",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-681e2122cd07adc8",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-c62f3b1ae8eb4536",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-9f807b535dceefec",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-f385568602e5814f",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-d3c26465251c2f66",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-5005e8fc9e581806",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-ceeb5ed9018e2701",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-8b2fccdb8fc54a20",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-78b7ed65751f1290",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-564bb4639e148d3f",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-55661558d55d9131",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1eb20b7a5f678878",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-bf854dbddbb9e7b3",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-7891974da843f560",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-43343f43c53f9c7f",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-befe33cf6ff1df95",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-6c1aea6d29db819e",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-d2e6db7c3896ab74",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-42624a408db1e2da",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-9f564786d3898258",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-92f019ced32302fa",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-441412a0448e2f0d",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-db362b00b6500eb6",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-616f03bf9b04038b",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-569c957ac5e32e8f",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-bf35e11b32a22848",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-0e339bb503b8adf8",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-a46dfbc2c0502365",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1169d73e39151647",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-62e5ac7a6bd2948b",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-ac9b0f60793c8667",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-99cdc7a578d57dad",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-6365b86f757c965d",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-4e69fa7c5eaa1e8b",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a930f80ee97bced7",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-56cfdcb0a4ff9355",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-f6e3136694970782",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-2b81f3fe624f0cfe",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-9f74c91077562782",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-54f054b327bd0bb7",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b395265f4cd2a452",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-c96dd9226ea2e39c",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-716e7744bf5cb162",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-5f1b303be6d41892",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-bf5e47f3e5b3ad26",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-b9d00a4b1e63e102",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-c59a8c41c85c8c0c",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-d916dc2cdf3f50f0",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-39ff44ead9580fb1",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-df05a1a8ea9750b6",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-f2de07e442ae0d67",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-a426481289a3e6fd",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-ff23b9991bf1ea39",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-e158b64a69100ed7",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-348ae581390068b3",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-4d5fff25db2c4d38",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-3f60bd094d74b3d0",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-54c69014f578a634",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-17966ae772a12feb",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-356e59e3aaeeb930",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-63a7ccf55a8a5ea8",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-79258a8db59792a4",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-360ca1aab47aa397",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-821b937e91c0e395",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-bc88dd1b65d716e6",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-06d15791b6bf92cc",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-2e80afcdde5a960f",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-6838bc3d9746d328",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-1f750f72ef029138",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-919b165466587723",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a6591a9c3e637cdf",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-74df1197a642939e",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-618ab82ffc425dff",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-147fa78bf768a85c",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-42fc46c5f7f25d73",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-f5f61955143bca47",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-3af6ac54034765b4",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1e2157fad1cfcb28",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-e2310f82ef6e43e9",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-184b5fb5c14ea029",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-38414ed5b9105f3c",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-920eb507aa204419",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-d833316130f87046",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-e87dce9520d53363",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-dbdb8c3cd5d3040b",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-5146e2c0e029dbde",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-26b1cc87697e09d7",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-81a9c7efeef92a29",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-9306770b06bafc28",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-592979cb8a306b24",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-0595ad1999c1e148",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-cdc9d6e6f3995889",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-08e2fe29f85927f2",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-9ce8b3d940ba6abd",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-be789dadb40c0dad",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b48a2f59c3c610d2",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-9dc734fa475ff581",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-8e681134f9f7f1bf",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-d1d67513a9501cb6",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-f7c2c822e34da1a9",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-dc3e5b004a0bd25b",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-a35c5d136a6472e0",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-44ca7e7245f20320",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-c8506e949d336812",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-966d69c814c9bc5a",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-0897657f1565a790",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-6a9678e4c46ba813",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-4e1265be325767ea",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-8ff3971ecc4bc991",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-d904fa5818b5a40c",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-cabb16a945b31fb2",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-a0a28c315881193c",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-45ea621007daa16c",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a206145f2c457377",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-4270df84c50e2fc7",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-3ad3b77b434f0d42",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-7aedc7b20a7151e5",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-7c738073b0904dab",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b9cd6bbe3b13fa76",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-bc736a07f8670a02",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-2382df91d6e56bdd",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-16ecd8183dd43f2b",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-1d29e63ec8711922",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-1fc2b9325dd0805b",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-29215308da58e50d",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-242c4dbc2a743526",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-265256c32176e18e",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-9aa25f5306a927a0",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-5525af5ef27001c0",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-094491a3e2783db0",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-8c766c12d11e7383",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-dd593d934d03a13d",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-a6e0d14fc1e922de",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-3c7d6f7d839a8c5c",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-7a5d8336b2fc6697",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-95c63fe3797a3728",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-ed7ca4832ff9085b",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-fe86430c9759466b",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-39e3b0b6b04ae168",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-3d8ec7c91fcd9ea5",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-7a340a091a76bed5",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-2afbe6abf37b4b81",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-0d31a1a84e6e0935",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-85eb74bd25b2938f",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-862e8c4c0193a385",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-cfd838ad2af85cf2",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-397d01804b9b3b3b",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-2a617e6ff7a95dee",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-9f214226ed3f637f",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-0891fa0e42686672",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-cbd983a4be0c9715",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-79a66ce0d8d19855",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1a8451f67e562217",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-e6e004f3f8f722b2",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-fec218623afc3460",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-4959647b49740aa3",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-3aa1acc4275d06d4",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-6994ac3b60665402",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-72c70fc6071f508a",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-d3baefbbd8285a6b",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-efb0319505e623af",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-9904df499a3fc2bc",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b16bb95689b2176d",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-48d138777b60dfc7",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-54658602be93493e",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-5d74edc59a78edff",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-0c7b5831c97c0922",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-fda4209b07a79e30",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b5eaf9179fccdaca",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-cec843d60ba827c7",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b214c101312bb3e7",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-7ac95ed17b185881",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-361f60d6514408cf",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-a4e385963a886d58",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-742f8ad664408eb3",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-831f56b61fdea945",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-fdd63f471bf360e0",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-5f3afec905dafb35",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-411851f2621941c2",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-23b6a1c8aa4a1176",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-03ef8dd3996b82b5",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-d034abf883277552",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a33844b10427596b",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-5a8bb84f5ef77436",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-8037da0106095e94",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-bcd22c808db3bc67",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-ac2065a487cfd97d",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-39305881db46f817",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-c98772f546f5e8ab",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-f7d72985b379d98c",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-82f5f65a8d30b36b",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-4de7962260a90f1a",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-f76f471c8dd752bc",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-970c0fa2d3bbb3a2",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-f10f1797fd553d66",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-12103458258a5b81",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-4a5968a9e6b4bbbf",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-5e1f9f90d4b28688",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-7319e1456b50c920",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a9a1bb22ced64bbe",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-44eee63d001d1580",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1c91dfe43ad6f75b",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b1ddfb45ae84c7b3",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-2802230adb354b76",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-5f6aa323b097aa50",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-79541013609a8755",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-8646ae705b1a40e2",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-8674111185802c32",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-e63065819c1092be",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-52305f909fae4eda",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-29e927974af476c6",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-3eb1f5de42248062",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-d2b3741dff2b288d",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-56cbceb4a64d6429",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-e8e85c2d2e0f3947",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-ed7e319955f822b7",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-d5fb691ae004b2ad",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-d7f404f1f97be374",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-bb7150367784f936",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-ecebdd1012c30594",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-019f7ab540ef0324",
+   "expected": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-aae07133c1f141b8",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-8897769654f57d39",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-3e0e24c546136452",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-c1cf36fd33dbef5c",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-45443a250bc4d572",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-655e5ddbf225daa0",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-924486d847fffa31",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-9e898b96cfd8ffeb",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a2d3ac8f926446ae",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-27f2273367191f2f",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-e1c399d9f6bafe52",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-37c2ca0aaf62d714",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-ca73962557eaf046",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-d1662cc9ec2b81ff",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-695b7cad9331b81d",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-f884b13706a3704c",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-67eb1f4b63c44c3a",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-214bb267cf0b81f1",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-a1c1cc21135cacc5",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-f6a87bdb7ca19d34",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-a19453cc3d525bbc",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-23328943c95cdb57",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-1eba232cbaaa0460",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b1d47e89a512a77d",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-5aded204a4db35fc",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-e81b60f80faf2c47",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-e36261c504392649",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-764ea80b7bd54a04",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-5a3bba148892098b",
+   "expected": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-9b0637d69def7012",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-ce8bad15d39537f1",
+   "expected": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-6b4720ef2bcb14d1",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-fc1921ef0dcf29dc",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-8f057ce4d575902b",
+   "expected": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-eff26cb25edad5b5",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-c5e0e08a54173429",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-5581e46e37d57443",
+   "expected": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-1854431315de0dc4",
+   "expected": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "technical",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-114ac992392df96a",
+   "expected": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-11bac5fde42dbcd2",
+   "expected": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-18814da0602a8a48",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": false,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-62599f6dee259360",
+   "expected": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-31b3402ef01f592c",
+   "expected": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "low",
+    "needs_reply": false
+   },
+   "twin": false,
+   "lifecycle": "notice"
+  },
+  {
+   "id": "rl-4b320c7dd02d2507",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-cf7ca9fec5f6d7b6",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-b036231e779fb312",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-bffcf31902a5c7e5",
+   "expected": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "sales",
+    "priority": "normal",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  },
+  {
+   "id": "rl-70059c756b378e91",
+   "expected": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-717a34989565ad3b",
+   "expected": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "scheduling",
+    "priority": "normal",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-ae404afbfbb14ac6",
+   "expected": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "predicted": {
+    "category": "information",
+    "priority": "high",
+    "needs_reply": true
+   },
+   "twin": true,
+   "lifecycle": "reply"
+  },
+  {
+   "id": "rl-7668c38beea86649",
+   "expected": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "predicted": {
+    "category": "billing",
+    "priority": "high",
+    "needs_reply": false
+   },
+   "twin": true,
+   "lifecycle": "action"
+  }
+ ]
+}

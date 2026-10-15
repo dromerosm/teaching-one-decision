@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Teaching one decision: code, data and measurements for an email-triage study of small and large models"
+authors:
+  - family-names: Romero
+    given-names: Diego
+date-released: 2026-10-14
+version: 1.0.0
+license: Apache-2.0
+repository-code: "https://github.com/dromerosm/teaching-one-decision"
+url: "https://diegoromero.es/en/articles/private-company-data-small-models/"
+keywords:
+  - fine-tuning
+  - small language models
+  - decision models
+  - email triage
+  - benchmark
+  - synthetic data

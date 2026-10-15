@@ -1,0 +1,92 @@
+{
+  "rows": 3176,
+  "label_distribution": {
+    "category": {
+      "billing": 699,
+      "scheduling": 597,
+      "technical": 693,
+      "sales": 579,
+      "information": 608
+    },
+    "priority": {
+      "normal": 1391,
+      "high": 961,
+      "low": 824
+    },
+    "needs_reply": {
+      "True": 1425,
+      "False": 1751
+    }
+  },
+  "majority_class": {
+    "n": 3176,
+    "all_fields": 0.0324,
+    "category": 0.2201,
+    "priority": 0.438,
+    "needs_reply": 0.5513
+  },
+  "keyword_heuristic": {
+    "n": 3176,
+    "all_fields": 0.2283,
+    "category": 0.5793,
+    "priority": 0.5526,
+    "needs_reply": 0.6319
+  },
+  "header_heuristic": {
+    "n": 3176,
+    "all_fields": 0.2377,
+    "category": 0.5793,
+    "priority": 0.5856,
+    "needs_reply": 0.6319
+  },
+  "naive_bayes_validation": {
+    "n": 395,
+    "all_fields": 0.4582,
+    "category": 0.8481,
+    "priority": 0.6152,
+    "needs_reply": 0.8734
+  },
+  "keyword_heuristic_validation": {
+    "n": 395,
+    "all_fields": 0.2278,
+    "category": 0.5924,
+    "priority": 0.5443,
+    "needs_reply": 0.638
+  },
+  "header_heuristic_validation": {
+    "n": 395,
+    "all_fields": 0.2532,
+    "category": 0.5924,
+    "priority": 0.5899,
+    "needs_reply": 0.638
+  },
+  "naive_bayes_test": {
+    "n": 398,
+    "all_fields": 0.5201,
+    "category": 0.9045,
+    "priority": 0.6206,
+    "needs_reply": 0.897
+  },
+  "keyword_heuristic_test": {
+    "n": 398,
+    "all_fields": 0.2739,
+    "category": 0.6382,
+    "priority": 0.5402,
+    "needs_reply": 0.6432
+  },
+  "header_heuristic_test": {
+    "n": 398,
+    "all_fields": 0.2789,
+    "category": 0.6382,
+    "priority": 0.6005,
+    "needs_reply": 0.6432
+  },
+  "test_sentences_verbatim_in_train": 0.0817,
+  "twin_pairs": 620,
+  "twin_changes": {
+    "received_date": 325,
+    "sla": 241,
+    "incident_state": 54
+  },
+  "max_text_only_priority_accuracy_on_twin_rows": 0.5
+}

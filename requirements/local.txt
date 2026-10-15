@@ -1,0 +1,4 @@
+# Checking checksums, rebuilding the datasets, re-running audits and collecting results
+# needs only the Python standard library (Python 3.10+).
+# Optional, for the token-length checks (round*/dataset/check_tokenization.py, round2/generator/check_tokenization.py):
+tokenizers==0.23.3

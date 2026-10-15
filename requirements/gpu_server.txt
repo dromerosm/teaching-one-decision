@@ -1,0 +1,15 @@
+# Decision 3.0 runs on a GPU server (DGX Spark, GB10). Installed by infra/gpu_server/setup_env.sh
+# into a uv-managed CPython 3.12 (it ships Python.h, which Triton needs).
+--index-url https://download.pytorch.org/whl/cu130
+torch==2.11.0
+torchvision==0.26.0
+--extra-index-url https://pypi.org/simple
+transformers==5.17.0
+accelerate==1.15.0
+safetensors>=0.6
+huggingface_hub>=1.0
+flash-linear-attention==0.5.2
+einops
+pillow>=10
+opencv-python-headless
+peft==0.21.0

@@ -1,0 +1,406 @@
+{
+  "asks": {
+    "billing": {
+      "train": [
+        "fix the wrong unit price on line three of the invoice",
+        "remove late-payment fees applied after a bank holiday",
+        "refund a pro-rated amount after a mid-cycle downgrade",
+        "add the cost-centre code to the invoice header",
+        "reissue an invoice with the purchase order number on it",
+        "apply the agreed non-profit discount to the next invoice",
+        "refund a duplicate card charge from the start of the month",
+        "stop charging for a seat that belongs to an employee who left",
+        "correct the currency on an invoice sent in dollars instead of euros",
+        "merge two customer billing accounts into one",
+        "set up a payment plan for an overdue balance",
+        "change the billing contact to a new finance manager",
+        "update the bank account used for direct debits",
+        "change the invoice delivery address to the accounts-payable mailbox",
+        "split the latest invoice across two cost centres",
+        "explain an overage charge for {system} usage on the latest invoice",
+        "add the new subsidiary's legal name to future invoices",
+        "correct the VAT number printed on last month's invoice"
+      ],
+      "validation": [
+        "explain why tax was charged on a tax-exempt order",
+        "switch the payment method from card to bank transfer",
+        "confirm the remittance details for a payment sent on Monday",
+        "convert a proforma invoice into a final invoice"
+      ],
+      "calibration": [
+        "send copies of all invoices for the last financial year",
+        "move the account from monthly to annual invoicing",
+        "cancel an invoice raised for a project that was never started",
+        "issue a credit note for licences that were cancelled"
+      ],
+      "test": [
+        "pause billing while the account is suspended",
+        "reverse a chargeback that was opened by mistake",
+        "check why a payment made last week still shows as unpaid",
+        "provide a statement of account for the auditors"
+      ]
+    },
+    "technical": {
+      "train": [
+        "debug a certificate error when connecting to the {system}",
+        "fix broken accented characters in exports from the {system}",
+        "fix a crash in the {system} on older Android phones",
+        "patch a vulnerability reported by an external scanner",
+        "review a suspicious login alert from an unknown country",
+        "investigate why the {system} logs users out every few minutes",
+        "roll back a configuration change made to the {system}",
+        "explain why the {system} shows stale data",
+        "recover a deleted project in the {system}",
+        "check why notifications from the {system} stopped arriving",
+        "explain why the {system} returns timeouts since the last release",
+        "enable audit logging on the {system}",
+        "increase the rate limit on the {system} for a migration",
+        "reset two-factor authentication for a locked-out administrator",
+        "explain a sudden spike of rejected requests in the {system}",
+        "check a data mismatch between the {system} and the reports",
+        "resolve failed file uploads larger than 50 MB in the {system}",
+        "whitelist a new office IP range for the {system}"
+      ],
+      "validation": [
+        "fix time-zone errors in timestamps from the {system}",
+        "find out why scheduled jobs in the {system} did not run overnight",
+        "help configure single sign-on for a new team",
+        "restore records missing from the {system} after an import"
+      ],
+      "calibration": [
+        "investigate intermittent errors in the {system}",
+        "check why webhooks from the {system} arrive twice",
+        "fix a login loop affecting some users of the {system}",
+        "rotate an API key that was accidentally shared"
+      ],
+      "test": [
+        "remove a test integration that keeps writing junk data",
+        "explain an error code that appears when saving in the {system}",
+        "restore access for a service account that stopped working",
+        "look into slow page loads in the {system}"
+      ]
+    },
+    "sales": {
+      "train": [
+        "upgrade the support contract from business hours to 24/7 cover",
+        "price a new module for a second country",
+        "match a competitor's offer before the renewal",
+        "ask about pricing for a public-sector framework",
+        "negotiate a multi-year discount",
+        "upgrade from the standard plan to the enterprise plan",
+        "change the contract from per-user to per-site pricing",
+        "add a sandbox environment to the order",
+        "request a discount for committing to a three-year term",
+        "get pricing for an API usage tier above the current one",
+        "add white-label branding to the subscription",
+        "buy additional storage for the {system}",
+        "bundle training days into the renewal",
+        "extend the free trial for another evaluation team",
+        "downgrade unused seats at renewal",
+        "get a formal quote to include in next year's budget",
+        "ask for an enterprise agreement covering all subsidiaries",
+        "get a proposal for a pilot at three new sites"
+      ],
+      "validation": [
+        "add premium support to the current subscription",
+        "transfer the licence to a newly acquired company",
+        "price a dedicated hosting option",
+        "convert a pilot into a full contract"
+      ],
+      "calibration": [
+        "get pricing for the analytics add-on",
+        "add a new department to the existing licence",
+        "add a second production environment to the contract",
+        "buy a higher service-level agreement for the busy season"
+      ],
+      "test": [
+        "price professional services for a data migration",
+        "get volume pricing for a group-wide rollout",
+        "renew the contract that expires at the end of the quarter",
+        "get a quote for adding forty more user licences"
+      ]
+    },
+    "scheduling": {
+      "train": [
+        "change the time zone of a series of invitations",
+        "book a workshop to map the new process",
+        "arrange a handover call before a colleague's leave",
+        "set up an introduction meeting with the new account manager",
+        "set up a recurring monthly check-in",
+        "cancel the series of meetings that is no longer needed",
+        "move a weekly stand-up to a different day",
+        "arrange a call between both legal teams",
+        "plan a kickoff meeting for the next project phase",
+        "find a time for a post-mortem meeting",
+        "schedule a walkthrough of the new reporting screens",
+        "book a meeting room for a joint planning day",
+        "push the steering committee meeting back by an hour",
+        "book an onboarding session for new administrators",
+        "fit an extra session into next week's training plan",
+        "reschedule the go-live rehearsal",
+        "reschedule a meeting that clashes with a public holiday",
+        "add two colleagues to an existing meeting invitation"
+      ],
+      "validation": [
+        "set a date for the user acceptance testing session",
+        "book interpreters for a bilingual workshop",
+        "arrange an on-site visit to the main office",
+        "schedule a call to go through the audit findings"
+      ],
+      "calibration": [
+        "find a slot for a roadmap call with the product team",
+        "book a slot for the annual security review",
+        "swap the order of two sessions in a training day",
+        "cancel tomorrow's training session"
+      ],
+      "test": [
+        "arrange a lunch-and-learn for the support team",
+        "move the quarterly review to the following week",
+        "organise a demo for the board",
+        "arrange a visit to the data centre"
+      ]
+    },
+    "information": {
+      "train": [
+        "confirm receipt of the updated privacy notice",
+        "record the new office address in the supplier file",
+        "distribute the updated holiday calendar to the team",
+        "review the new brand guidelines before using the logo",
+        "record the change of registered company name",
+        "update the glossary page with the agreed product terms",
+        "distribute the revised emergency contact procedure",
+        "pass the new travel policy to all staff",
+        "replace the old onboarding guide with the new version on the intranet",
+        "note the new opening hours of the support desk",
+        "update the internal wiki with the renamed product modules",
+        "file the updated subprocessor list",
+        "note the retirement of the old reporting template",
+        "update the shared contact list with the new escalation names",
+        "circulate the updated organisation chart",
+        "record the new data retention schedule",
+        "file the signed security questionnaire",
+        "file the yearly compliance attestation"
+      ],
+      "validation": [
+        "save the revised service description in the contract folder",
+        "acknowledge the new acceptable-use policy",
+        "share the summary of the regulatory change with the managers",
+        "store the new tax residency certificate"
+      ],
+      "calibration": [
+        "archive the minutes of the last partnership meeting",
+        "share the new incident communication guidelines",
+        "add the updated sustainability report to the shared drive",
+        "keep the updated insurance certificate on file"
+      ],
+      "test": [
+        "pass on the new code of conduct to contractors",
+        "read and file the updated data-processing agreement",
+        "upload the latest accessibility statement to the portal",
+        "file the signed confidentiality agreement in the contract records"
+      ]
+    }
+  },
+  "notices": {
+    "billing": {
+      "train": [
+        "the card used for the subscription was replaced by their bank, same details on file",
+        "their bank confirmed the refund has arrived in their account",
+        "they signed the direct debit mandate and returned it to their bank",
+        "their bank confirms the direct debit for this month was collected successfully",
+        "remittance advice for the payment sent this week",
+        "their finance team has paid the latest invoice by bank transfer, for the record"
+      ],
+      "validation": [
+        "the late-payment fee that was waived now shows correctly on their statement",
+        "the remaining invoice balance has been paid in full"
+      ],
+      "calibration": [
+        "their auditors have finished reviewing the vendor invoices, no issues found",
+        "they received the credit note and have applied it on their side"
+      ],
+      "test": [
+        "they paid the outstanding invoice early to close their financial year",
+        "the overdue balance mentioned last month has now been settled"
+      ]
+    },
+    "technical": {
+      "train": [
+        "their own network maintenance at the weekend went fine and the {system} kept working",
+        "their scheduled restart of the on-premise connector for the {system} completed and data is flowing again",
+        "their monitoring shows the {system} back to normal after the morning's blip, for the record",
+        "their IT team confirms the {system} connection works again after their firewall change",
+        "they upgraded browsers across the company and saw no change in the {system}",
+        "their migration of users to the new single sign-on finished without issues"
+      ],
+      "validation": [
+        "they rotated their own internal passwords; the {system} integration was unaffected",
+        "the problem they reported last week with the {system} has not come back"
+      ],
+      "calibration": [
+        "their test of the disaster-recovery plan included the {system} and succeeded",
+        "they switched office internet providers and the {system} works as before"
+      ],
+      "test": [
+        "the error they saw in the {system} disappeared after the fix was deployed",
+        "their IT team rolled out a new firewall rule and the {system} still connects normally"
+      ]
+    },
+    "sales": {
+      "train": [
+        "the quote they received is now under internal review, no answer needed yet",
+        "the signed order form was uploaded to the procurement portal",
+        "legal has finished reviewing the contract terms and has no comments",
+        "the purchase was approved by their parent company",
+        "they chose to stay on the current plan after the trial, nothing to change",
+        "the competitor offer they mentioned has expired, for the record"
+      ],
+      "validation": [
+        "they decided to renew the contract on the current terms and the signed renewal will follow",
+        "they accepted the commercial proposal internally and the purchase order is being prepared"
+      ],
+      "calibration": [
+        "their purchasing team confirms the quote for extra licences fits the budget and an order will follow",
+        "their budget cycle for new licences starts in January"
+      ],
+      "test": [
+        "their procurement committee approved the purchase of the additional licences quoted last month",
+        "their procurement team has approved the renewal internally and the order will follow"
+      ]
+    },
+    "scheduling": {
+      "train": [
+        "they have accepted the invitation for next week's review",
+        "they have shared the dial-in details for the agreed call with their team",
+        "their room for the on-site workshop is booked and confirmed",
+        "visitor badges for the planned site visit are ready at their reception",
+        "one of their participants will join the planned call a few minutes late",
+        "their interpreter for the bilingual workshop is confirmed"
+      ],
+      "validation": [
+        "the training session they booked is confirmed on their side",
+        "the catering for the joint planning day is arranged"
+      ],
+      "calibration": [
+        "they confirm all their participants will attend the scheduled review on the agreed date",
+        "the parking for the visitors to the planned workshop is reserved"
+      ],
+      "test": [
+        "their colleague declined the optional session, the meeting goes ahead",
+        "they added the agreed meeting series to their team calendar"
+      ]
+    },
+    "information": {
+      "train": [
+        "their updated organisation chart is attached for reference",
+        "summary of a regulatory change in their sector, for awareness",
+        "their company is changing its trading name next year",
+        "their head office has moved to a new address",
+        "their company has appointed a new managing director",
+        "they published an updated privacy policy on their website"
+      ],
+      "validation": [
+        "their internal newsletter mentions the project with Helix",
+        "their new brand guidelines are attached for reference"
+      ],
+      "calibration": [
+        "their annual sustainability report is now published",
+        "their offices will be closed on a local public holiday"
+      ],
+      "test": [
+        "they adopted a new supplier code of conduct, shared for awareness",
+        "their customer service desk has new opening hours"
+      ]
+    }
+  },
+  "accounts": {
+    "train": [
+      "Delta Aviation Services",
+      "Sierra Outdoor",
+      "Willow Home Care",
+      "Nogal Muebles",
+      "Olivar Cooperativa",
+      "Zenith Pharma Logistics",
+      "Westfield Dental",
+      "Kestrel Aerospace",
+      "Basalt Mining",
+      "Quetzal Microfinance",
+      "Vega Veterinary",
+      "Opal Optics",
+      "Estrella Autobuses",
+      "Arco Ingeniería",
+      "Cobalt Retail Group",
+      "Juniper Hotels",
+      "Mistral Wind Farms",
+      "Xenon Telecom",
+      "Galicia Mar",
+      "Falcon Fitness",
+      "Lumen Media",
+      "Corsair Logistics",
+      "Ultramar Cruises",
+      "Prism Architecture",
+      "Dalia Cosmetics",
+      "Valle Construcciones",
+      "Nimbus Software",
+      "Meridian Bank",
+      "Dorado Jewellers",
+      "Pinecrest Senior Living",
+      "Koala Kids Nurseries",
+      "Tidewater Ports Authority",
+      "Pacific Coffee Roasters",
+      "Jaguar Car Rentals",
+      "Kappa Manufacturing",
+      "Atlas Facilities",
+      "Brightwater Utilities",
+      "Toledo Metalworks",
+      "Lighthouse Shipping Insurance",
+      "Horizon Recruitment",
+      "Indigo Fashion Online",
+      "Quill Translation Services",
+      "Yellowstone Travel",
+      "Ivory Publishing",
+      "Terra Agritech",
+      "Redwood University",
+      "Rioja Wine Exports",
+      "Duna Seguros",
+      "Monarch Events",
+      "Yunque Steel"
+    ],
+    "validation": [
+      "Orion Freight Forwarding",
+      "Solaris Hospitals",
+      "Jade Insurance Brokers",
+      "Levante Energía",
+      "Quanta Labs",
+      "Ember Restaurants",
+      "Saffron Grocers",
+      "Glacier Water Co",
+      "Zafiro Dental Labs",
+      "Wavelength Radio"
+    ],
+    "calibration": [
+      "Harbor City Council",
+      "Union Credit Cooperative",
+      "Granada Foods",
+      "Fortuna Gaming",
+      "Nova Analytics",
+      "Iberia Legal Partners",
+      "Xativa Paper Mills",
+      "Cedar Property Management",
+      "Umbra Security",
+      "Bonanza Farms"
+    ],
+    "test": [
+      "Aurora Cinemas",
+      "Beacon Charities",
+      "Helios Solar",
+      "Ribera Hospital Foundation",
+      "Vortex Esports",
+      "Evergreen Schools Trust",
+      "Northwind Logistics",
+      "Fjord Maritime",
+      "Alba Clinics",
+      "Cumbre Hostels"
+    ]
+  }
+}

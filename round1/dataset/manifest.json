@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "created_date": "2026-10-11",
+  "seed": 20261011,
+  "counts": {
+    "train": 2000,
+    "validation": 400,
+    "calibration": 400,
+    "test": 400
+  },
+  "total_records": 3200,
+  "scenario_families": 80,
+  "languages": [
+    "en",
+    "es"
+  ],
+  "schema_source": "colab-email-schema-20261011/schema.json",
+  "schema_semantics_unchanged": true,
+  "synthetic": true,
+  "real_mailbox_accessed": false,
+  "teacher_model_used": false,
+  "training_performed": false,
+  "construction": "80 author-written bilingual families; 4 lifecycle cases; 5 rendered views; 2 languages; complete families assigned to one split",
+  "independence_warning": "3200 rendered emails are not 3200 independent scenarios. Each held-out split has 10 distinct topic families.",
+  "grouping": [
+    "scenario family",
+    "translation pair",
+    "counterfactual group"
+  ],
+  "label_fields": [
+    "category",
+    "priority",
+    "needs_reply"
+  ],
+  "files_sha256": {
+    "calibration.jsonl": "982c238864e58ccb6f7f85faedb6dcf60a9a4a6e9d9ba9bebedfc50ee26abc62",
+    "calibration_inputs.jsonl": "f0227963b4e86fa53e3d9eef63803416950f2c878e2a6bfe0d14d77f1066dac0",
+    "calibration_labels.jsonl": "cbf0ff2c5a9c37112ac1070767aabede2589f89653b50c826bf8b538e633ce0c",
+    "family_assignment.json": "a7dfbd7ca89f11d63dc86c29dbca538fd7f3f8d370eb476dbc403f24ed67e9cf",
+    "questions.json": "954b9ead54f820c85bff95123a1081c9c7f4ad47e8c43dea6132c3932c6a2c87",
+    "records.jsonl": "93a7fbf267da38c08d899f9c402f9876cba0e922de03643a4aa6dc677ca7b302",
+    "schema.json": "b760c9f9d478182a4bedb2670605899517dd301433b59e05b900e2868e557f1a",
+    "test.jsonl": "756b83926302b85f2f587ea7794700b3da6c4d5695da415aca82884bcb64d6c1",
+    "test_inputs.jsonl": "4d1cddb239e9d291bdd7152e85d1e905f194beb1bb1ae3abb6fa5dfa6b39b770",
+    "test_labels.jsonl": "8545fc337c34e1e69451e9ce4d462f328f190fe45242c251402fbe5ff361636f",
+    "train.jsonl": "59cd05f7320175595d1f6abb6743a7d25757ed83e2e853371763da639077e4cb",
+    "train_inputs.jsonl": "8a82adf512aa4c0673b0e0e54daf5c82ff7bd2ac409e6f2c76b93bbbf9d12b93",
+    "train_labels.jsonl": "b53539c6b44b2e648e6bce772a5d2dd8e89acf94fb7ba5b27af89a32153aeeb6",
+    "validation.jsonl": "0530ec80c522719fc882a8751b02503f99416871390358f67f13fa193fd0cf23",
+    "validation_inputs.jsonl": "a8272eaf32642ef70cf4039ba13ea02019187990ea067e3f4ccce5b7004a37f8",
+    "validation_labels.jsonl": "22df3e66203a80ac20ad6c47a944ec246e4cb80f343f85bd03c08db4947be664"
+  }
+}

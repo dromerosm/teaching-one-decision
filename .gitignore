@@ -1,0 +1,22 @@
+# Local configuration and connection state
+infra/gpu_server/config.env
+infra/gpu_server/.ssh-master.sock
+*.env
+!*.example.env
+
+# Generated during runs
+round2/generator/gen/
+round2/generator/gen_failed*/
+round2/experiments/colab/data/
+round2/experiments/colab/*.tar
+round2/experiments/colab/*.log
+round2/experiments/colab/session*-log.json
+checkpoint/
+qlora_adapter*/
+*.part[0-9][0-9][0-9]
+
+# Python and OS noise
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

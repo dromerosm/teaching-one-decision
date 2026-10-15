@@ -1,0 +1,26 @@
+{
+ "category": {
+  "type": "choice",
+  "criteria": {
+   "billing": null,
+   "technical": null,
+   "sales": null,
+   "scheduling": null,
+   "information": null
+  },
+  "instructions": "You triage emails that arrive in the shared inbox of Helix Systems, a B2B software vendor. Each input has a header written by the triage system, then the email:\n- Received: the date and time the email arrived.\n- From: the sender, their role and their customer account.\n- Account SLA: Premium or Standard.\n- Open incidents for this account: incident ID, affected system, status and whether there is customer impact.\nClassify only the latest message: the text above any quoted (\">\") or forwarded history.\n\ncategory: which team must act on what the sender asks for, not on topics mentioned in passing, the subject line or quoted history.\nbilling = invoices, charges, refunds, payment details. technical = faults, errors, incidents, access, API or security help. sales = buying, quotes, upgrades, pricing, commercial renewals. scheduling = arranging, moving or cancelling meetings, whatever the meeting is about. information = documents, policies and announcements to read, file or share.\nFor a notice that asks for nothing, use its area: payments or invoices = billing; systems, access or service health = technical; purchases, quotes, orders or contracts = sales; a specific meeting, visit or session = scheduling; company news, policies and documents = information."
+ },
+ "priority": {
+  "type": "choice",
+  "criteria": {
+   "low": null,
+   "normal": null,
+   "high": null
+  },
+  "instructions": "You triage emails that arrive in the shared inbox of Helix Systems, a B2B software vendor. Each input has a header written by the triage system, then the email:\n- Received: the date and time the email arrived.\n- From: the sender, their role and their customer account.\n- Account SLA: Premium or Standard.\n- Open incidents for this account: incident ID, affected system, status and whether there is customer impact.\nClassify only the latest message: the text above any quoted (\">\") or forwarded history.\n\npriority: work through these checks in order and stop at the first that applies.\n1. The latest message is about an incident that the header lists with \"customer impact: yes\" -> high.\n2. The latest message sets a deadline for its request. Work out the deadline's calendar date and compare it with the Received date. Same calendar date -> high. A later date does not make it high. Dates or weekdays that are not deadlines for the request (past events, payments already made, meetings, document dates) do not count.\n3. The Account SLA is Premium and the sender says their work is blocked or cannot proceed -> high. Blocked on a Standard account is not high.\n4. The latest message asks for no action at all (a notice, receipt, confirmation of something already done, announcement) -> low.\n5. Otherwise -> normal.\nTone, urgent words, capital letters, the subject line and quoted history never change priority."
+ },
+ "needs_reply": {
+  "type": "noul",
+  "instructions": "You triage emails that arrive in the shared inbox of Helix Systems, a B2B software vendor. Each input has a header written by the triage system, then the email:\n- Received: the date and time the email arrived.\n- From: the sender, their role and their customer account.\n- Account SLA: Premium or Standard.\n- Open incidents for this account: incident ID, affected system, status and whether there is customer impact.\nClassify only the latest message: the text above any quoted (\">\") or forwarded history.\n\nneeds_reply: true only if the latest message asks the recipient (Helix Systems) to write back, confirm or send information. It is false when the message only asks for something to be done without a written answer (for example \"no need to reply\" or \"I will check the portal\"), when it is a notice, when the only questions are addressed to a colleague in copy or appear in quoted history, or when the only such line is a generic courtesy like \"let me know if you have any questions\"."
+ }
+}

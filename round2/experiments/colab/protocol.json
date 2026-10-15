@@ -1,0 +1,102 @@
+{
+  "base_laya_revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+  "qwen_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "laya_version": "0.4.2",
+  "epochs": 4,
+  "seed": 42,
+  "loss": "soft-ce",
+  "micro_batch": 8,
+  "grad_accum": 4,
+  "full_finetune": true,
+  "recipe_identical_to": "laya-t4-finetune-20261011",
+  "model_selection": "validation exact-all-fields then per-decision accuracy; earlier epoch on ties",
+  "calibration": "explicit calibration split only",
+  "split_unit": "account (50/10/10/10); asks and notices also split-disjoint",
+  "row_counts": {
+    "train": 1985,
+    "validation": 395,
+    "calibration": 398,
+    "test": 398
+  },
+  "qwen_changes_vs_previous_run": [
+    "flash-linear-attention and causal-conv1d installed (fast kernels asserted)",
+    "SDPA attention instead of eager",
+    "schema descriptions are the same policy text Laya receives"
+  ],
+  "pre_training_baselines": {
+    "majority_class": {
+      "n": 3176,
+      "all_fields": 0.0324,
+      "category": 0.2201,
+      "priority": 0.438,
+      "needs_reply": 0.5513
+    },
+    "keyword_heuristic": {
+      "n": 3176,
+      "all_fields": 0.2283,
+      "category": 0.5793,
+      "priority": 0.5526,
+      "needs_reply": 0.6319
+    },
+    "header_heuristic": {
+      "n": 3176,
+      "all_fields": 0.2377,
+      "category": 0.5793,
+      "priority": 0.5856,
+      "needs_reply": 0.6319
+    },
+    "naive_bayes_validation": {
+      "n": 395,
+      "all_fields": 0.4582,
+      "category": 0.8481,
+      "priority": 0.6152,
+      "needs_reply": 0.8734
+    },
+    "keyword_heuristic_validation": {
+      "n": 395,
+      "all_fields": 0.2278,
+      "category": 0.5924,
+      "priority": 0.5443,
+      "needs_reply": 0.638
+    },
+    "header_heuristic_validation": {
+      "n": 395,
+      "all_fields": 0.2532,
+      "category": 0.5924,
+      "priority": 0.5899,
+      "needs_reply": 0.638
+    },
+    "naive_bayes_test": {
+      "n": 398,
+      "all_fields": 0.5201,
+      "category": 0.9045,
+      "priority": 0.6206,
+      "needs_reply": 0.897
+    },
+    "keyword_heuristic_test": {
+      "n": 398,
+      "all_fields": 0.2739,
+      "category": 0.6382,
+      "priority": 0.5402,
+      "needs_reply": 0.6432
+    },
+    "header_heuristic_test": {
+      "n": 398,
+      "all_fields": 0.2789,
+      "category": 0.6382,
+      "priority": 0.6005,
+      "needs_reply": 0.6432
+    }
+  },
+  "data_sha256": {
+    "assignment.json": "c81e4d150c63f8470aa94b004ae6e866d5819d80b2b723834042c12d3bc32012",
+    "calibration.jsonl": "14bd434b78a4eda4d2834e368f6863635a5913773b92843fbd4c491c6a0b0afa",
+    "emails.json": "77dcb32c164e7f914cf9d731d77cf8f4fc638b7d305ab408fb17c95ad36aeb31",
+    "questions.json": "0aaeae8197b700f11d9c84afc11a2ac14d5a71c4d8087d8230a53f01e754f666",
+    "records.jsonl": "352ac5509d290e6a72d4590cb5872e696bedf5898f313c06df45a7863151f1b1",
+    "schema.json": "fde4e24de2f3d90e08c93a18661230b71df930b658cb64660755072f0fbfb601",
+    "test.jsonl": "42cdbffb02179344cdca7cf81b28a7138451a6eb71f2b8d535861b97dfc314e5",
+    "train.jsonl": "47638b17fad847c4e942b1b35073a85cb9234edeb8f0762528927687aede15e1",
+    "validation.jsonl": "b781b0dff89daf929776ab6fa9daa2c944a412ec42b82bdcc781e32f103afaf2"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "status": "complete",
+  "stage": "complete",
+  "started_at": 1791750904.7847497,
+  "base_repo": "convaiinnovations/laya-multilingual",
+  "base_revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+  "epochs": [
+    {
+      "epoch": 1,
+      "mean_loss": 0.44568685833794447,
+      "training_seconds": 584.6951201129999,
+      "validation": {
+        "decision_accuracy": 0.8936708860759494,
+        "all_fields_accuracy": 0.7012658227848101,
+        "per_field_accuracy": {
+          "category": 0.9367088607594937,
+          "priority": 0.7468354430379747,
+          "needs_reply": 0.9974683544303797
+        }
+      },
+      "validation_seconds": 68.0872029579998
+    },
+    {
+      "epoch": 2,
+      "mean_loss": 0.10000983622903122,
+      "training_seconds": 584.2095736250001,
+      "validation": {
+        "decision_accuracy": 0.9746835443037974,
+        "all_fields_accuracy": 0.9265822784810127,
+        "per_field_accuracy": {
+          "category": 0.9645569620253165,
+          "priority": 0.9645569620253165,
+          "needs_reply": 0.9949367088607595
+        }
+      },
+      "validation_seconds": 67.81955437099987
+    },
+    {
+      "epoch": 3,
+      "mean_loss": 0.017389062133596363,
+      "training_seconds": 581.370763568,
+      "validation": {
+        "decision_accuracy": 0.980590717299578,
+        "all_fields_accuracy": 0.9417721518987342,
+        "per_field_accuracy": {
+          "category": 0.9670886075949368,
+          "priority": 0.9822784810126582,
+          "needs_reply": 0.9924050632911392
+        }
+      },
+      "validation_seconds": 69.11392945500029
+    },
+    {
+      "epoch": 4,
+      "mean_loss": 0.005221318059112384,
+      "training_seconds": 575.3216407989999,
+      "validation": {
+        "decision_accuracy": 0.9814345991561182,
+        "all_fields_accuracy": 0.9443037974683545,
+        "per_field_accuracy": {
+          "category": 0.9645569620253165,
+          "priority": 0.9873417721518988,
+          "needs_reply": 0.9924050632911392
+        }
+      },
+      "validation_seconds": 69.97646211900019
+    }
+  ],
+  "selection": "Highest validation all-fields accuracy; then decision accuracy; then earlier epoch. Test is never read by this script.",
+  "versions": {
+    "laya": "0.4.2",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.19.0"
+  },
+  "gpu": "Tesla T4",
+  "data_sha256": {
+    "train.jsonl": "47638b17fad847c4e942b1b35073a85cb9234edeb8f0762528927687aede15e1",
+    "validation.jsonl": "b781b0dff89daf929776ab6fa9daa2c944a412ec42b82bdcc781e32f103afaf2",
+    "calibration.jsonl": "14bd434b78a4eda4d2834e368f6863635a5913773b92843fbd4c491c6a0b0afa",
+    "schema.json": "fde4e24de2f3d90e08c93a18661230b71df930b658cb64660755072f0fbfb601",
+    "questions.json": "0aaeae8197b700f11d9c84afc11a2ac14d5a71c4d8087d8230a53f01e754f666",
+    "assignment.json": "c81e4d150c63f8470aa94b004ae6e866d5819d80b2b723834042c12d3bc32012"
+  },
+  "download_seconds": 9.390652166999985,
+  "train_config": {
+    "epochs": 4,
+    "micro_batch": 8,
+    "grad_accum": 4,
+    "encoder_lr": 2.5e-05,
+    "head_lr": 0.0001,
+    "min_lr": 1e-06,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "loss": "soft-ce",
+    "rl_samples": 4,
+    "sigma_start": 0.4,
+    "sigma_end": 0.1,
+    "w_sph": 0.75,
+    "w_rps": 1.0,
+    "shuffle_options": [],
+    "option_layout": null,
+    "freeze_encoder": false,
+    "calib_max": 0,
+    "calib_frac": 0.0,
+    "calib_seed": 20260922,
+    "seed": 42,
+    "max_len": 1024,
+    "head_max_len": 256,
+    "amp": true,
+    "gradient_checkpointing": true,
+    "log_every": 25,
+    "label_smoothing": 0.0,
+    "text_column": "text",
+    "label_column": "label",
+    "question_id": "label",
+    "instructions": null,
+    "eval_data": null,
+    "target_error": 0.1,
+    "min_abstain_n": 10
+  },
+  "item_counts": {
+    "train": 5955,
+    "validation": 1185,
+    "calibration": 1194
+  },
+  "skipped": {
+    "train": {},
+    "validation": {},
+    "calibration": {}
+  },
+  "row_counts": {
+    "train": 1985,
+    "validation": 395,
+    "calibration": 398
+  },
+  "optimizer_updates_planned": 748,
+  "load_preprocess_seconds": 29.140982689999987,
+  "baseline_validation": {
+    "decision_accuracy": 0.4911392405063291,
+    "all_fields_accuracy": 0.05822784810126582,
+    "per_field_accuracy": {
+      "category": 0.5139240506329114,
+      "priority": 0.43544303797468353,
+      "needs_reply": 0.5240506329113924
+    }
+  },
+  "baseline_validation_seconds": 59.41438756499997,
+  "selected_epoch": 4,
+  "selected_validation": {
+    "decision_accuracy": 0.9814345991561182,
+    "all_fields_accuracy": 0.9443037974683545,
+    "per_field_accuracy": {
+      "category": 0.9645569620253165,
+      "priority": 0.9873417721518988,
+      "needs_reply": 0.9924050632911392
+    }
+  },
+  "epoch_loss": [
+    0.44568685833794447,
+    0.10000983622903122,
+    0.017389062133596363,
+    0.005221318059112384
+  ],
+  "training_with_validation_seconds": 2654.9389518450002,
+  "peak_training_gpu_bytes": 6461252096,
+  "calibration": {
+    "choice": {
+      "items": 796,
+      "temperature": 3.5640299320220947,
+      "issues": [],
+      "accuracy": 0.9484924623115578,
+      "mean_confidence": 0.9537571885013004
+    },
+    "score": {
+      "items": 0,
+      "temperature": 1.0,
+      "issues": []
+    },
+    "noul": {
+      "items": 398,
+      "temperature": 3.326551675796509,
+      "issues": [],
+      "accuracy": 0.992462311557789,
+      "mean_confidence": 0.9907940354899638
+    }
+  },
+  "calibration_collapse_warning": null,
+  "calibration_fit_metrics": {
+    "items": 1194,
+    "loss": 0.123,
+    "accuracy": 0.9631,
+    "mean_confidence": 0.9661,
+    "ece": 0.0108,
+    "brier": 0.0593,
+    "brier_top1": 0.0288,
+    "by_type": {
+      "choice": {
+        "items": 796,
+        "loss": 0.1675,
+        "accuracy": 0.9485,
+        "mean_confidence": 0.9538,
+        "ece": 0.0153,
+        "brier": 0.0809,
+        "brier_top1": 0.0392
+      },
+      "noul": {
+        "items": 398,
+        "loss": 0.034,
+        "accuracy": 0.9925,
+        "mean_confidence": 0.9908,
+        "ece": 0.0059,
+        "brier": 0.0161,
+        "brier_top1": 0.0081
+      }
+    }
+  },
+  "calibration_seconds": 96.32394932500029,
+  "checkpoint_sha256": "16ddf5e452260b38e793b430fccea3c4d9aa603595b6c1def9d82aa29a8f2ff6",
+  "finished_at": 1791753766.1442716
+}

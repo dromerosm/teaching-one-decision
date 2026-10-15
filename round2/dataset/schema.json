@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "enum": [
+        "billing",
+        "technical",
+        "sales",
+        "scheduling",
+        "information"
+      ],
+      "description": "Which team must act on the latest message? Decide by what the sender asks for, not by topics mentioned in passing, the subject line or quoted history. billing = invoices, charges, refunds, payment details; technical = faults, errors, incidents, access, API or security help; sales = buying, quotes, upgrades, pricing, commercial renewals; scheduling = arranging, moving or cancelling meetings, whatever the meeting is about; information = documents, policies and announcements to read, file or share. For a notice that asks for nothing, choose its area: payments or invoices = billing; systems, access or service health = technical; purchases, quotes, orders or contracts = sales; a specific meeting, visit or session = scheduling; company news, policies and documents = information."
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "normal",
+        "high"
+      ],
+      "description": "How urgent is the latest message, using the header? high = it concerns an incident that the header lists with customer impact: yes; or it sets a deadline that falls on the same day it was received; or the account SLA is Premium and the sender says their work is blocked. low = it asks for no action (notice, receipt, closed item, marketing). normal = any other request. Tone, capital letters, the subject line and quoted history do not change priority."
+    },
+    "needs_reply": {
+      "type": "boolean",
+      "description": "Does the latest message ask the recipient to write back, confirm or send information? Generic courtesy lines such as 'let me know if you have any questions' do not count. Asking only for something to be done, with no written answer expected, is false. Questions addressed to someone else, such as a colleague in copy, and questions in quoted or forwarded history do not count."
+    }
+  },
+  "required": [
+    "category",
+    "priority",
+    "needs_reply"
+  ],
+  "additionalProperties": false
+}

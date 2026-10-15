@@ -1,0 +1,215 @@
+{
+  "status": "complete",
+  "stage": "complete",
+  "started_at": 1791718258.2686965,
+  "base_repo": "convaiinnovations/laya-multilingual",
+  "base_revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+  "epochs": [
+    {
+      "epoch": 1,
+      "mean_loss": 0.11232558690261586,
+      "training_seconds": 199.84162869600004,
+      "validation": {
+        "decision_accuracy": 0.9575,
+        "all_fields_accuracy": 0.8775,
+        "per_field_accuracy": {
+          "category": 0.935,
+          "priority": 0.96,
+          "needs_reply": 0.9775
+        }
+      },
+      "validation_seconds": 27.426540180000018
+    },
+    {
+      "epoch": 2,
+      "mean_loss": 0.00045006926581285,
+      "training_seconds": 197.38813550099997,
+      "validation": {
+        "decision_accuracy": 0.9783333333333334,
+        "all_fields_accuracy": 0.9375,
+        "per_field_accuracy": {
+          "category": 0.9825,
+          "priority": 0.9625,
+          "needs_reply": 0.99
+        }
+      },
+      "validation_seconds": 27.599714405999975
+    },
+    {
+      "epoch": 3,
+      "mean_loss": 3.4382721105750134e-06,
+      "training_seconds": 197.807387091,
+      "validation": {
+        "decision_accuracy": 0.9808333333333333,
+        "all_fields_accuracy": 0.945,
+        "per_field_accuracy": {
+          "category": 0.985,
+          "priority": 0.965,
+          "needs_reply": 0.9925
+        }
+      },
+      "validation_seconds": 27.748718951
+    },
+    {
+      "epoch": 4,
+      "mean_loss": 6.530379908073295e-07,
+      "training_seconds": 197.61564266900007,
+      "validation": {
+        "decision_accuracy": 0.9808333333333333,
+        "all_fields_accuracy": 0.945,
+        "per_field_accuracy": {
+          "category": 0.985,
+          "priority": 0.965,
+          "needs_reply": 0.9925
+        }
+      },
+      "validation_seconds": 27.59583228700012
+    }
+  ],
+  "selection": "Highest validation all-fields accuracy; then decision accuracy; then earlier epoch. Test is never read by this script.",
+  "versions": {
+    "laya": "0.4.2",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.19.0"
+  },
+  "gpu": "Tesla T4",
+  "data_sha256": {
+    "train.jsonl": "59cd05f7320175595d1f6abb6743a7d25757ed83e2e853371763da639077e4cb",
+    "validation.jsonl": "0530ec80c522719fc882a8751b02503f99416871390358f67f13fa193fd0cf23",
+    "calibration.jsonl": "982c238864e58ccb6f7f85faedb6dcf60a9a4a6e9d9ba9bebedfc50ee26abc62",
+    "schema.json": "b760c9f9d478182a4bedb2670605899517dd301433b59e05b900e2868e557f1a",
+    "questions.json": "954b9ead54f820c85bff95123a1081c9c7f4ad47e8c43dea6132c3932c6a2c87",
+    "family_assignment.json": "a7dfbd7ca89f11d63dc86c29dbca538fd7f3f8d370eb476dbc403f24ed67e9cf"
+  },
+  "download_seconds": 5.642109938000004,
+  "train_config": {
+    "epochs": 4,
+    "micro_batch": 8,
+    "grad_accum": 4,
+    "encoder_lr": 2.5e-05,
+    "head_lr": 0.0001,
+    "min_lr": 1e-06,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "loss": "soft-ce",
+    "rl_samples": 4,
+    "sigma_start": 0.4,
+    "sigma_end": 0.1,
+    "w_sph": 0.75,
+    "w_rps": 1.0,
+    "shuffle_options": [],
+    "option_layout": null,
+    "freeze_encoder": false,
+    "calib_max": 0,
+    "calib_frac": 0.0,
+    "calib_seed": 20260922,
+    "seed": 42,
+    "max_len": 1024,
+    "head_max_len": 256,
+    "amp": true,
+    "gradient_checkpointing": true,
+    "log_every": 25,
+    "label_smoothing": 0.0,
+    "text_column": "text",
+    "label_column": "label",
+    "question_id": "label",
+    "instructions": null,
+    "eval_data": null,
+    "target_error": 0.1,
+    "min_abstain_n": 10
+  },
+  "item_counts": {
+    "train": 6000,
+    "validation": 1200,
+    "calibration": 1200
+  },
+  "skipped": {
+    "train": {},
+    "validation": {},
+    "calibration": {}
+  },
+  "optimizer_updates_planned": 752,
+  "load_preprocess_seconds": 22.496696198000024,
+  "baseline_validation": {
+    "decision_accuracy": 0.5258333333333334,
+    "all_fields_accuracy": 0.1325,
+    "per_field_accuracy": {
+      "category": 0.725,
+      "priority": 0.3675,
+      "needs_reply": 0.485
+    }
+  },
+  "baseline_validation_seconds": 24.71946004099999,
+  "selected_epoch": 3,
+  "selected_validation": {
+    "decision_accuracy": 0.9808333333333333,
+    "all_fields_accuracy": 0.945,
+    "per_field_accuracy": {
+      "category": 0.985,
+      "priority": 0.965,
+      "needs_reply": 0.9925
+    }
+  },
+  "epoch_loss": [
+    0.11232558690261586,
+    0.00045006926581285,
+    3.4382721105750134e-06,
+    6.530379908073295e-07
+  ],
+  "training_with_validation_seconds": 928.0839373459999,
+  "peak_training_gpu_bytes": 6494125056,
+  "calibration": {
+    "choice": {
+      "items": 800,
+      "temperature": 3.0794925689697266,
+      "issues": [],
+      "accuracy": 0.96375,
+      "mean_confidence": 0.971449445826544
+    },
+    "score": {
+      "items": 0,
+      "temperature": 1.0,
+      "issues": []
+    },
+    "noul": {
+      "items": 400,
+      "temperature": 2.8329529762268066,
+      "issues": [],
+      "accuracy": 0.96,
+      "mean_confidence": 0.9694030661582416
+    }
+  },
+  "calibration_collapse_warning": null,
+  "calibration_fit_metrics": {
+    "items": 1200,
+    "loss": 0.0992,
+    "accuracy": 0.9625,
+    "mean_confidence": 0.9708,
+    "ece": 0.0142,
+    "brier": 0.0562,
+    "brier_top1": 0.0277,
+    "by_type": {
+      "choice": {
+        "items": 800,
+        "loss": 0.1031,
+        "accuracy": 0.9637,
+        "mean_confidence": 0.9714,
+        "ece": 0.0125,
+        "brier": 0.0556,
+        "brier_top1": 0.0273
+      },
+      "noul": {
+        "items": 400,
+        "loss": 0.0913,
+        "accuracy": 0.96,
+        "mean_confidence": 0.9694,
+        "ece": 0.0228,
+        "brier": 0.0573,
+        "brier_top1": 0.0286
+      }
+    }
+  },
+  "calibration_seconds": 32.57239666500004,
+  "checkpoint_sha256": "2f1c9ef1e9d5cc3aa3a4ae3b5d7a6dd04b484dcba595fbc772c4115dfa7dc790",
+  "finished_at": 1791719274.9752963
+}

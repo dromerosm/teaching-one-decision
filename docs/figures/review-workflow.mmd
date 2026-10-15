@@ -1,0 +1,18 @@
+flowchart TB
+  A["PROPOSED • Email batch"] --> B["Load model + context"]
+  B --> C["Predict and validate schema"]
+  C --> F["Save predictions • Release GPU"]
+  F --> D["Human reviews every case"]
+  D --> E["Act on reviewed decision<br/>Log outcome + corrections"]
+  E -.->|"After label review"| G["New training dataset<br/>Fresh test set"]
+  G --> H["Train and evaluate candidate"]
+  H --> I{"Approved?"}
+  I -->|"Yes"| J["Release new checkpoint"]
+  I -->|"No"| K["Keep current model"]
+  J -.->|"Later batch"| B
+  classDef data fill:#e8eef3,stroke:#526d82,color:#182c3a
+  classDef model fill:#e9efdf,stroke:#6f8051,color:#24331e
+  classDef review fill:#f5e8d9,stroke:#ac7b4f,color:#432e1c
+  class A,B,C,F data
+  class G,H,J model
+  class D,E,I,K review

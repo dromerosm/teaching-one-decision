@@ -1,0 +1,11 @@
+Use case: editorial hero illustration for a serious technology article about teaching AI models one business decision from a company's own reviewed examples. Wide landscape composition, centred and balanced, with all key elements inside the central 70% of the frame so it survives responsive cropping.
+
+Scene, seen from a slightly elevated three-quarter angle across a long pale desk:
+- Centre-left foreground: a neat, curated stack of email envelopes and corrected decision cards with small coloured paper tabs (no readable text). A clean paper ribbon carries a few selected cards from the stack into a small matte-glass cube.
+- Centre: the small cube glows warmly from within. Out of its far side flow exactly three orderly streams of square paper tiles, slate blue, muted green and soft amber, fanning gently toward the lower right of the frame, perfectly sorted.
+- Background, in a calm row behind the small cube: exactly six matte-glass vessels of steadily increasing size, from a small cube to a tall monolith, evenly spaced from left to right across the middle of the frame. Only the tallest one has a faint inner light of its own.
+- Nothing else on the desk. No extra paper piles at the edges. A soft window-light pattern on the wall behind; no plants.
+
+Style: refined contemporary editorial 3D paper sculpture mixed with matte glass, subtle paper grain, soft directional window light from the left, restrained professional palette (warm paper whites, slate blue, muted green, soft amber, cool grey wall), generous breathing room, crisp forms legible at thumbnail size. Visual metaphor, not a technical diagram.
+
+Avoid: any words, letters, numbers, logos or watermarks; robots, brains, human figures, padlocks, shields, glowing sci-fi circuitry, neon, clutter, objects cut off at the frame edges. Opaque background.

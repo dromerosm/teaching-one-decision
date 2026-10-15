@@ -1,0 +1,19 @@
+flowchart TB
+  subgraph company["PROPOSED • Company-controlled environment"]
+    direction TB
+    H["Cases + corrections"] --> D["Reviewed training examples"]
+    D --> T["Train and evaluate offline"]
+    T --> C["Approved checkpoint"]
+    E["New email"] --> X["Input assembly"]
+    B["Current context<br/>Owner • Deadline • State"] --> X
+    X --> M["Small decision model<br/>Checkpoint + schema"]
+    C --> M
+    M --> J["Validated decisions<br/>Category • Priority • Reply"]
+    J --> R["Human review and action"]
+  end
+  classDef data fill:#e8eef3,stroke:#526d82,color:#182c3a
+  classDef model fill:#e9efdf,stroke:#6f8051,color:#24331e
+  classDef decision fill:#f5e8d9,stroke:#ac7b4f,color:#432e1c
+  class H,D,E,B,X data
+  class T,C,M model
+  class J,R decision

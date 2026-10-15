@@ -1,0 +1,13 @@
+# Colab T4 runtime (PyTorch 2.11.0+cu130 came with the image when these experiments ran).
+# Installed by infra/colab/setup_remote.py.
+laya==0.4.2
+transformers==5.19.0
+bitsandbytes==0.50.2
+accelerate==1.15.0
+peft==0.21.0
+sentencepiece
+jsonschema==4.26.0
+flash-linear-attention==0.5.2
+lm-format-enforcer @ git+https://github.com/noamgat/lm-format-enforcer.git@817f944fcc8851917c40300a47f62d1defc3ffc3
+# Built from source, for the T4 only (TORCH_CUDA_ARCH_LIST=7.5), with nothing else running:
+# causal-conv1d==1.7.0

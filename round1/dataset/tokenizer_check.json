@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "repo": "convaiinnovations/laya-multilingual",
+  "revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+  "tokenizers_version": "0.23.3",
+  "tokenizer_sha256": "609d8f4c067cd3950f88594c5a802616cea245823836ef5848ee4fc40aab5b6f",
+  "state_tokens": {
+    "min": 46,
+    "max": 149,
+    "mean": 103.8859375
+  },
+  "state_tokens_by_language": {
+    "en": {
+      "max": 133,
+      "mean": 97.94125
+    },
+    "es": {
+      "max": 149,
+      "mean": 109.830625
+    }
+  },
+  "serialized_question_tokens": {
+    "category": 115,
+    "priority": 87,
+    "needs_reply": 62
+  },
+  "conservative_pair_max": 280,
+  "state_limit_checked": 1024,
+  "serialized_question_limit_checked": 256,
+  "scope": "Pinned tokenizer lengths with truncation disabled. Serialized question JSON is a conservative proxy, not the Laya training item renderer. No model load, training, GPU allocation or laya-train dry-run was performed."
+}

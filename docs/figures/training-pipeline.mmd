@@ -1,0 +1,20 @@
+flowchart TB
+  A["EXECUTED • Synthetic data<br/>3,200 emails • 80 families"] --> S["Split whole families"]
+  S --> TR["Train: 2,000 emails<br/>50 families"]
+  S --> VA["Validate: 400 emails<br/>10 families"]
+  S --> CA["Calibrate: 400 emails<br/>10 families"]
+  S --> TE["Test: 400 emails<br/>10 families"]
+  TR --> F["Full fine-tuning on T4<br/>6,000 items • 4 epochs"]
+  F --> K["Select checkpoint<br/>Epoch 3"]
+  VA -->|"Validation accuracy"| K
+  K --> P["Fit temperatures<br/>Keep selected weights"]
+  CA --> P
+  P --> EV["Compare three models<br/>Same test and schema"]
+  TE --> EV
+  EV --> SAVE["Save and verify artifacts<br/>Record usage • Stop GPU"]
+  classDef data fill:#e8eef3,stroke:#526d82,color:#182c3a
+  classDef train fill:#e9efdf,stroke:#6f8051,color:#24331e
+  classDef test fill:#f5e8d9,stroke:#ac7b4f,color:#432e1c
+  class A,S,TR,VA,CA data
+  class F,K,P train
+  class TE,EV,SAVE test

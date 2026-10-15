@@ -1,0 +1,48 @@
+{
+  "method": "No-GPU lexical baseline for the email-triage benchmark.",
+  "fit_on": "train.jsonl",
+  "results": {
+    "validation": {
+      "naive_bayes": {
+        "all_fields_accuracy": 0.8425,
+        "per_field_accuracy": {
+          "category": 0.9625,
+          "priority": 0.935,
+          "needs_reply": 0.9375
+        }
+      },
+      "naive_bayes_plus_high_rule": {
+        "all_fields_accuracy": 0.8625,
+        "per_field_accuracy": {
+          "category": 0.9625,
+          "priority": 0.9575,
+          "needs_reply": 0.9375
+        }
+      }
+    },
+    "test": {
+      "naive_bayes": {
+        "all_fields_accuracy": 0.84,
+        "per_field_accuracy": {
+          "category": 0.9825,
+          "priority": 0.935,
+          "needs_reply": 0.9025
+        }
+      },
+      "naive_bayes_plus_high_rule": {
+        "all_fields_accuracy": 0.875,
+        "per_field_accuracy": {
+          "category": 0.9825,
+          "priority": 0.985,
+          "needs_reply": 0.9025
+        }
+      }
+    }
+  },
+  "high_rule_check": {
+    "rows": 3200,
+    "rule_matches": 1200,
+    "matches_that_are_high": 1200,
+    "high_rows_total": 1200
+  }
+}

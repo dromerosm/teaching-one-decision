@@ -1,0 +1,22 @@
+{
+  "base_laya_revision": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+  "qwen_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "laya_version": "0.4.2",
+  "epochs": 4,
+  "seed": 42,
+  "loss": "soft-ce",
+  "micro_batch": 8,
+  "grad_accum": 4,
+  "full_finetune": true,
+  "model_selection": "validation exact-all-fields then per-decision accuracy; earlier epoch on ties",
+  "calibration": "explicit 400-row calibration file only",
+  "test_rows": 400,
+  "schema_sha256": "b760c9f9d478182a4bedb2670605899517dd301433b59e05b900e2868e557f1a",
+  "data_sha256": {
+    "train.jsonl": "59cd05f7320175595d1f6abb6743a7d25757ed83e2e853371763da639077e4cb",
+    "test.jsonl": "756b83926302b85f2f587ea7794700b3da6c4d5695da415aca82884bcb64d6c1",
+    "validation.jsonl": "0530ec80c522719fc882a8751b02503f99416871390358f67f13fa193fd0cf23",
+    "records.jsonl": "93a7fbf267da38c08d899f9c402f9876cba0e922de03643a4aa6dc677ca7b302",
+    "calibration.jsonl": "982c238864e58ccb6f7f85faedb6dcf60a9a4a6e9d9ba9bebedfc50ee26abc62"
+  }
+}

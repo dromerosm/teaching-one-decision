@@ -1,0 +1,50 @@
+[
+ {
+  "id": "rl-a7a377fe43e82f82",
+  "state": "Received: Thu 08 Oct 2026, 11:34\nFrom: Carmen Martínez <carmen.martinez@sierra-outdoor.example>, head of customer service, Sierra Outdoor\nAccount SLA: Standard\nOpen incidents for this account: none\nSubject: Añadir dos compañeros a la convocatoria\n\nHola, equipo de Helix:\n\n¿Podéis añadir a la convocatoria que ya tenemos con vosotros a Lucía Torres (lucia.torres@sierraoutdoor.es) y Pablo Ruiz (pablo.ruiz@sierraoutdoor.es), el lunes 12/10 a las 17:00 como máximo?\n\nLos dos participarán por parte de atención al cliente.\nOs agradecería una confimación por correo cuando estén incluidos.\n\nGracias,\nCarmen Martínez\nResponsable de atención al cliente\nSierra Outdoor",
+  "answer": "{\"category\": \"scheduling\", \"priority\": \"normal\", \"needs_reply\": true}",
+  "why": "reply"
+ },
+ {
+  "id": "rl-21126d6ae198a8fe",
+  "state": "Received: Mon 12 Oct 2026, 11:42\nFrom: Carmen Martínez <carmen.martinez@sierra-outdoor.example>, head of customer service, Sierra Outdoor\nAccount SLA: Standard\nOpen incidents for this account: none\nSubject: Añadir dos compañeros a la convocatoria\n\nHola, equipo de Helix:\n\n¿Podéis añadir a la convocatoria que ya tenemos con vosotros a Lucía Torres (lucia.torres@sierraoutdoor.es) y Pablo Ruiz (pablo.ruiz@sierraoutdoor.es), el lunes 12/10 a las 17:00 como máximo?\n\nLos dos participarán por parte de atención al cliente.\nOs agradecería una confimación por correo cuando estén incluidos.\n\nGracias,\nCarmen Martínez\nResponsable de atención al cliente\nSierra Outdoor",
+  "answer": "{\"category\": \"scheduling\", \"priority\": \"high\", \"needs_reply\": true}",
+  "why": "received_date"
+ },
+ {
+  "id": "rl-d15d94d77bb46419",
+  "state": "Received: Tue 20 Oct 2026, 07:36\nFrom: Oliver Clarke <oliver.clarke@brightwater-utilities.example>, office manager, Brightwater Utilities\nAccount SLA: Standard\nOpen incidents for this account: none\nSubject: Agreed non-profit discount on next invoice\n\nHello Helix team,\n\nFollowing our call on Tuesday, could you apply the agreed non-profit discount to Brightwater Utilities’ next invoice and confirm this by email?\n\nOur invoice approval cannot proceed until the discount is applied, as the amount must match with our agreed terms. The account is under Brightwater Utilities, reference BW-2084.\n\nThank you for your help.\n\nOliver Clarke\nOffice Manager\nBrightwater Utilities",
+  "answer": "{\"category\": \"billing\", \"priority\": \"normal\", \"needs_reply\": true}",
+  "why": "reply"
+ },
+ {
+  "id": "rl-fe70830a4ef8f3c2",
+  "state": "Received: Tue 20 Oct 2026, 07:36\nFrom: Oliver Clarke <oliver.clarke@brightwater-utilities.example>, office manager, Brightwater Utilities\nAccount SLA: Premium\nOpen incidents for this account: none\nSubject: Agreed non-profit discount on next invoice\n\nHello Helix team,\n\nFollowing our call on Tuesday, could you apply the agreed non-profit discount to Brightwater Utilities’ next invoice and confirm this by email?\n\nOur invoice approval cannot proceed until the discount is applied, as the amount must match with our agreed terms. The account is under Brightwater Utilities, reference BW-2084.\n\nThank you for your help.\n\nOliver Clarke\nOffice Manager\nBrightwater Utilities",
+  "answer": "{\"category\": \"billing\", \"priority\": \"high\", \"needs_reply\": true}",
+  "why": "sla"
+ },
+ {
+  "id": "rl-5ae1fea5bd849ba6",
+  "state": "Received: Tue 24 Nov 2026, 14:51\nFrom: Raúl Navarro <raul.navarro@prism-architecture.example>, finance manager, Prism Architecture\nAccount SLA: Premium\nOpen incidents for this account: none\nSubject: Próxima llamada de seguimiento\n\nHola, equipo de Helix:\n\nOs escribo para informaros de que la sede de Prism Architecture se ha trasladado.\n\nLa nueva direción es:\nCalle de Almagro, 18, 3.º\n28010 Madrid.\n\nLa próxima llamada de seguimiento con vuestro equipo sigue en agenda; la tendremos ya desde la nueva oficina.\n\nUn saludo,\nRaúl Navarro\nResponsable financiero\nPrism Architecture",
+  "answer": "{\"category\": \"information\", \"priority\": \"low\", \"needs_reply\": false}",
+  "why": "notice"
+ },
+ {
+  "id": "rl-29c769581941f56d",
+  "state": "Received: Wed 18 Nov 2026, 07:58\nFrom: Ravi Morris <ravi.morris@westfield-dental.example>, executive assistant, Westfield Dental\nAccount SLA: Standard\nOpen incidents for this account: none\nSubject: Westfield Dental contract pricing change\n\nDear Helix Systems team,\n\nFollowing our contract review on 18 November, we would be grateful if you could change Westfield Dental’s contract from per-user to per-site pricing. We cannot proceed with our clinic rollout until this change is made.\n\nThere is no need for a written response; we will refer to the updated contract in the portal.\n\nWith thanks and kind regards,\nRavi Morris\nExecutive Assistant\nWestfield Dental",
+  "answer": "{\"category\": \"sales\", \"priority\": \"normal\", \"needs_reply\": false}",
+  "why": "action"
+ },
+ {
+  "id": "rl-3e4c92be52ce8186",
+  "state": "Received: Mon 12 Oct 2026, 11:20\nFrom: Pablo Ortega <pablo.ortega@toledo-metalworks.example>, executive assistant, Toledo Metalworks\nAccount SLA: Premium\nOpen incidents for this account: none\nSubject: Portal de clientes\n\nHola, equipo:\n\nEn nuestras notas sobre el portal aparece el pequeño error de acceso que tuvimos hace unos días, aunque este correo va por otro tema.\n\nAñadid el código de centro de coste TM-042 a la cabecera de la factura HS-28614 y confirmadme por aquí cuando esté incorporado.\n\n¡Gracias!\nPablo Ortega\nAsistente de dirección | Toledo Metalworks\n\n> De: Helix Systems\n> Hola, Pablo:\n> La dirección fiscal de Toledo Metalworks ya está corregida en la ficha de facturación, tal como acordamos.\n> Un saludo,\n> Marta",
+  "answer": "{\"category\": \"billing\", \"priority\": \"normal\", \"needs_reply\": true}",
+  "why": "reply"
+ },
+ {
+  "id": "rl-32513a1004180392",
+  "state": "Received: Fri 20 Nov 2026, 08:41\nFrom: Sophie Walker <sophie.walker@sierra-outdoor.example>, CTO, Sierra Outdoor\nAccount SLA: Standard\nOpen incidents for this account: INC-89355 returns portal (status: investigating; customer impact: yes)\nSubject: Returns portal audit logging\n\nHelix team,\n\nPlease enable audit logging on Sierra Outdoor’s returns portal. INC-89355 concerns return submissions failing to save reliably. Our internal review on 20 November highlighted the lack of a usable change trail.\n\nNothing is blocked or held up on our side. No written response needed; we’ll check the logging in the portal.\n\nSophie Walker\nCTO, Sierra Outdoor",
+  "answer": "{\"category\": \"technical\", \"priority\": \"high\", \"needs_reply\": false}",
+  "why": "action"
+ }
+]

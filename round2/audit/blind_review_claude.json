@@ -1,0 +1,254 @@
+{
+ "method": "Blind relabelling by Claude (Anthropic) from the written policy only, on a seeded random sample of 40 test emails (random.Random(20261014)); labels recorded before comparison.",
+ "sample_ids": [
+  "rl-9e0c45cc52b9c88e",
+  "rl-6742fe7e119ed39a",
+  "rl-47936dd8286ca822",
+  "rl-61f0c7f84ba8f317",
+  "rl-7dcc94d555782f54",
+  "rl-b52100a878101963",
+  "rl-e5c52a3bf0e8c968",
+  "rl-edaca952cbac2175",
+  "rl-bf27d57d3c4458d6",
+  "rl-5e41c93583361a02",
+  "rl-9b73feb9513bcb4c",
+  "rl-080b8f493a77ad42",
+  "rl-ea1843e2069fdbdb",
+  "rl-78cf9d6977165fda",
+  "rl-93411f77e3c3c467",
+  "rl-b171749d9560eade",
+  "rl-eaed74b70c237359",
+  "rl-e89fa23225f5a787",
+  "rl-2f810f32ebba816d",
+  "rl-9f02af12ba54656d",
+  "rl-63ad8f722916faf5",
+  "rl-6f8841ff264d3754",
+  "rl-6f0a5b49dfdb98da",
+  "rl-e11f00b62e6b2f24",
+  "rl-1b0d67ec623fd6a0",
+  "rl-e9e5b77b96568a03",
+  "rl-19cb589a053ba2b4",
+  "rl-e96fb5bec139b8f4",
+  "rl-351d27386c423e6c",
+  "rl-2d9dbe98a5dfecde",
+  "rl-fce8d98735ba5b36",
+  "rl-780b58d3d9320a03",
+  "rl-8544131c68219267",
+  "rl-d950074f568e30c2",
+  "rl-77138fac7b434a67",
+  "rl-0194445350710d45",
+  "rl-85b3f7d032991f79",
+  "rl-7724654dbbf72646",
+  "rl-6f7d6059369c6710",
+  "rl-c764ba6be7b00041"
+ ],
+ "blind_labels": {
+  "rl-9e0c45cc52b9c88e": {
+   "category": "technical",
+   "priority": "high",
+   "needs_reply": true
+  },
+  "rl-6742fe7e119ed39a": {
+   "category": "information",
+   "priority": "high",
+   "needs_reply": false
+  },
+  "rl-47936dd8286ca822": {
+   "category": "information",
+   "priority": "normal",
+   "needs_reply": false
+  },
+  "rl-61f0c7f84ba8f317": {
+   "category": "sales",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-7dcc94d555782f54": {
+   "category": "sales",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-b52100a878101963": {
+   "category": "information",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-e5c52a3bf0e8c968": {
+   "category": "sales",
+   "priority": "low",
+   "needs_reply": false
+  },
+  "rl-edaca952cbac2175": {
+   "category": "information",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-bf27d57d3c4458d6": {
+   "category": "sales",
+   "priority": "normal",
+   "needs_reply": false
+  },
+  "rl-5e41c93583361a02": {
+   "category": "billing",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-9b73feb9513bcb4c": {
+   "category": "technical",
+   "priority": "low",
+   "needs_reply": false
+  },
+  "rl-080b8f493a77ad42": {
+   "category": "scheduling",
+   "priority": "normal",
+   "needs_reply": false
+  },
+  "rl-ea1843e2069fdbdb": {
+   "category": "information",
+   "priority": "normal",
+   "needs_reply": false
+  },
+  "rl-78cf9d6977165fda": {
+   "category": "information",
+   "priority": "high",
+   "needs_reply": true
+  },
+  "rl-93411f77e3c3c467": {
+   "category": "scheduling",
+   "priority": "normal",
+   "needs_reply": false
+  },
+  "rl-b171749d9560eade": {
+   "category": "information",
+   "priority": "normal",
+   "needs_reply": false
+  },
+  "rl-eaed74b70c237359": {
+   "category": "information",
+   "priority": "high",
+   "needs_reply": false
+  },
+  "rl-e89fa23225f5a787": {
+   "category": "technical",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-2f810f32ebba816d": {
+   "category": "scheduling",
+   "priority": "high",
+   "needs_reply": true
+  },
+  "rl-9f02af12ba54656d": {
+   "category": "billing",
+   "priority": "low",
+   "needs_reply": false
+  },
+  "rl-63ad8f722916faf5": {
+   "category": "billing",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-6f8841ff264d3754": {
+   "category": "billing",
+   "priority": "normal",
+   "needs_reply": false
+  },
+  "rl-6f0a5b49dfdb98da": {
+   "category": "scheduling",
+   "priority": "high",
+   "needs_reply": false
+  },
+  "rl-e11f00b62e6b2f24": {
+   "category": "sales",
+   "priority": "high",
+   "needs_reply": false
+  },
+  "rl-1b0d67ec623fd6a0": {
+   "category": "technical",
+   "priority": "low",
+   "needs_reply": false
+  },
+  "rl-e9e5b77b96568a03": {
+   "category": "scheduling",
+   "priority": "normal",
+   "needs_reply": false
+  },
+  "rl-19cb589a053ba2b4": {
+   "category": "scheduling",
+   "priority": "high",
+   "needs_reply": true
+  },
+  "rl-e96fb5bec139b8f4": {
+   "category": "scheduling",
+   "priority": "normal",
+   "needs_reply": false
+  },
+  "rl-351d27386c423e6c": {
+   "category": "scheduling",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-2d9dbe98a5dfecde": {
+   "category": "billing",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-fce8d98735ba5b36": {
+   "category": "billing",
+   "priority": "low",
+   "needs_reply": false
+  },
+  "rl-780b58d3d9320a03": {
+   "category": "billing",
+   "priority": "low",
+   "needs_reply": false
+  },
+  "rl-8544131c68219267": {
+   "category": "sales",
+   "priority": "low",
+   "needs_reply": false
+  },
+  "rl-d950074f568e30c2": {
+   "category": "sales",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-77138fac7b434a67": {
+   "category": "technical",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-0194445350710d45": {
+   "category": "information",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-85b3f7d032991f79": {
+   "category": "information",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-7724654dbbf72646": {
+   "category": "billing",
+   "priority": "high",
+   "needs_reply": true
+  },
+  "rl-6f7d6059369c6710": {
+   "category": "billing",
+   "priority": "normal",
+   "needs_reply": true
+  },
+  "rl-c764ba6be7b00041": {
+   "category": "technical",
+   "priority": "normal",
+   "needs_reply": true
+  }
+ },
+ "agreement_all_fields": 40,
+ "agreement_by_field": {
+  "category": 40,
+  "priority": 40,
+  "needs_reply": 40
+ },
+ "disagreements": []
+}

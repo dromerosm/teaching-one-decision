@@ -1,0 +1,155 @@
+{
+ "status": "complete",
+ "stage": "complete",
+ "repo": "vllm-sr/d3-mini",
+ "revision": "0e78bbdbe3cf480ed1461c185c9e0c4fa9258011",
+ "mode": "lora",
+ "started_at": 1791846171.5129664,
+ "gpu": "NVIDIA GB10",
+ "versions": {
+  "torch": "2.11.0+cu130",
+  "transformers": "5.17.0",
+  "peft": "0.21.0"
+ },
+ "epochs": [
+  {
+   "epoch": 1,
+   "mean_loss": 0.04709716623056439,
+   "training_seconds": 4391.683733579994,
+   "validation": {
+    "all_fields_accuracy": 0.9569620253164557,
+    "per_field_accuracy": {
+     "category": 0.9721518987341772,
+     "priority": 0.9949367088607595,
+     "needs_reply": 0.9898734177215189
+    }
+   },
+   "validation_seconds": 194.2099102520151
+  }
+ ],
+ "loss_by_update": [
+  {
+   "update": 20,
+   "mean_loss": 0.1417772742362312,
+   "lr": 0.00019937093589825048,
+   "grad_norm": 0.14715175330638885,
+   "elapsed": 354.80273597699124
+  },
+  {
+   "update": 40,
+   "mean_loss": 0.13059645889394364,
+   "lr": 0.0001935397835087814,
+   "grad_norm": 0.05684521794319153,
+   "elapsed": 709.008576956985
+  },
+  {
+   "update": 60,
+   "mean_loss": 0.1263536109493714,
+   "lr": 0.0001819680675431409,
+   "grad_norm": 1.290052056312561,
+   "elapsed": 1070.9270304249949
+  },
+  {
+   "update": 80,
+   "mean_loss": 0.09785195576830716,
+   "lr": 0.00016545095610443012,
+   "grad_norm": 0.002551283221691847,
+   "elapsed": 1420.7612094679498
+  },
+  {
+   "update": 100,
+   "mean_loss": 0.0914719266651457,
+   "lr": 0.00014512344768469873,
+   "grad_norm": 0.02561076544225216,
+   "elapsed": 1774.762204699975
+  },
+  {
+   "update": 120,
+   "mean_loss": 0.07787176292766054,
+   "lr": 0.0001223823780133135,
+   "grad_norm": 0.0005126869073137641,
+   "elapsed": 2116.0581756850006
+  },
+  {
+   "update": 140,
+   "mean_loss": 0.07164324224308467,
+   "lr": 9.879043436040618e-05,
+   "grad_norm": 0.0006796451634727418,
+   "elapsed": 2468.4292224409874
+  },
+  {
+   "update": 160,
+   "mean_loss": 0.06648527028815013,
+   "lr": 7.596877309886498e-05,
+   "grad_norm": 0.01577501930296421,
+   "elapsed": 2826.3129445669474
+  },
+  {
+   "update": 180,
+   "mean_loss": 0.06195053357226986,
+   "lr": 5.5485619472797245e-05,
+   "grad_norm": 2.8212921619415283,
+   "elapsed": 3180.1586348019773
+  },
+  {
+   "update": 200,
+   "mean_loss": 0.05787612716109017,
+   "lr": 3.8748504609196613e-05,
+   "grad_norm": 0.007916465401649475,
+   "elapsed": 3537.717333058943
+  },
+  {
+   "update": 220,
+   "mean_loss": 0.05270922381191062,
+   "lr": 2.6907544870838798e-05,
+   "grad_norm": 0.01766807585954666,
+   "elapsed": 3891.274834902957
+  },
+  {
+   "update": 240,
+   "mean_loss": 0.04867501827327691,
+   "lr": 2.0776409857116296e-05,
+   "grad_norm": 0.021664492785930634,
+   "elapsed": 4248.416027189
+  }
+ ],
+ "permutation_average": false,
+ "temperature": 1.0,
+ "self_check_max_abs_diff": 6.547838182768828e-08,
+ "train_rows": 1985,
+ "train_items": 5955,
+ "validation_rows": 395,
+ "lora_targets": [
+  "down_proj",
+  "gate_proj",
+  "in_proj_a",
+  "in_proj_b",
+  "in_proj_qkv",
+  "in_proj_z",
+  "k_proj",
+  "o_proj",
+  "out_proj",
+  "q_proj",
+  "up_proj",
+  "v_proj"
+ ],
+ "trainable_parameters": 32464896,
+ "epochs_planned": 1,
+ "items_per_update": 24,
+ "total_updates_planned": 249,
+ "baseline_validation": {
+  "all_fields_accuracy": 0.7012658227848101,
+  "per_field_accuracy": {
+   "category": 0.850632911392405,
+   "priority": 0.8607594936708861,
+   "needs_reply": 0.9189873417721519
+  }
+ },
+ "max_grad_norm": 22.675491333007812,
+ "training_seconds": 4585.894901301945,
+ "peak_training_gpu_bytes": 11470840832,
+ "stopped_early_by_budget": false,
+ "selected_epoch": 1,
+ "weights_written": 723,
+ "finished_at": 1791851069.4026694
+}

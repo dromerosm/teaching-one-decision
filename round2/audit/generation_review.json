@@ -1,0 +1,179 @@
+{
+ "rows": 3176,
+ "checks": {
+  "A1 priority recomputed from header and spec": {
+   "failures": 0,
+   "examples": []
+  },
+  "A2 needs_reply equals reply lifecycle": {
+   "failures": 0,
+   "examples": []
+  },
+  "A3 category equals spec category": {
+   "failures": 0,
+   "examples": []
+  },
+  "A4 topic traces to exactly one team's hand-written list": {
+   "failures": 0,
+   "examples": []
+  },
+  "B1 header matches spec (received, SLA, incidents)": {
+   "failures": 0,
+   "examples": []
+  },
+  "C1 deadline phrase appears verbatim in the body": {
+   "failures": 0,
+   "examples": []
+  },
+  "C2 deadline phrase agrees with the spec deadline": {
+   "failures": 0,
+   "examples": []
+  },
+  "C3 'next week' phrases whose deadline falls in the same week": {
+   "count": 60,
+   "label_effect": "none: these deadlines are never on the received day, so priority stays normal",
+   "examples": [
+    "rl-f0733a9116021022",
+    "rl-123b79c5b5cf95e8",
+    "rl-66e402e78c489b9b",
+    "rl-fae13a8607b00fae",
+    "rl-1640dc38e17839e6"
+   ]
+  },
+  "D1 twin pairs are clean counterfactuals": {
+   "failures": 0,
+   "examples": [],
+   "detail": {
+    "pairs": 620
+   }
+  },
+  "E1 every email comes from an accepted generation with all checks passed": {
+   "failures": 0,
+   "examples": [],
+   "detail": {
+    "attempts_per_accepted_email": {
+     "1": 1987,
+     "2": 530,
+     "3": 39
+    },
+    "specs_dropped": 24
+   }
+  },
+  "E2 no relative day words where the brief forbade them": {
+   "failures": 0,
+   "examples": []
+  },
+  "E3 no label words in the text": {
+   "failures": 0,
+   "examples": []
+  },
+  "F1 accounts, requests and notices are split-disjoint": {
+   "failures": 0,
+   "examples": []
+  },
+  "F2 no identical email text outside a twin group": {
+   "failures": 0,
+   "examples": []
+  },
+  "F3 no test body is a near-duplicate of a training body (5-gram Jaccard >= 0.5)": {
+   "failures": 0,
+   "examples": [],
+   "detail": {
+    "max_jaccard": 0.071,
+    "p99": 0.061
+   }
+  }
+ },
+ "hard_failures": [],
+ "notes": [],
+ "balance": {
+  "train": {
+   "category": {
+    "billing": 436,
+    "scheduling": 373,
+    "technical": 441,
+    "sales": 363,
+    "information": 372
+   },
+   "priority": {
+    "normal": 877,
+    "high": 602,
+    "low": 506
+   },
+   "needs_reply": {
+    "True": 869,
+    "False": 1116
+   },
+   "language": {
+    "en": 1000,
+    "es": 985
+   }
+  },
+  "validation": {
+   "category": {
+    "sales": 70,
+    "information": 83,
+    "scheduling": 72,
+    "billing": 87,
+    "technical": 83
+   },
+   "priority": {
+    "low": 100,
+    "high": 120,
+    "normal": 175
+   },
+   "needs_reply": {
+    "False": 204,
+    "True": 191
+   },
+   "language": {
+    "en": 203,
+    "es": 192
+   }
+  },
+  "calibration": {
+   "category": {
+    "sales": 72,
+    "information": 78,
+    "scheduling": 75,
+    "billing": 87,
+    "technical": 86
+   },
+   "priority": {
+    "low": 113,
+    "normal": 168,
+    "high": 117
+   },
+   "needs_reply": {
+    "False": 216,
+    "True": 182
+   },
+   "language": {
+    "en": 197,
+    "es": 201
+   }
+  },
+  "test": {
+   "category": {
+    "technical": 83,
+    "information": 75,
+    "sales": 74,
+    "scheduling": 77,
+    "billing": 89
+   },
+   "priority": {
+    "normal": 171,
+    "high": 122,
+    "low": 105
+   },
+   "needs_reply": {
+    "True": 183,
+    "False": 215
+   },
+   "language": {
+    "en": 200,
+    "es": 198
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "fit_seconds": 0.5185371659463271,
+  "inference_seconds_398": 0.2268959580687806,
+  "score": {
+    "n": 398,
+    "all_fields": 0.5201,
+    "category": 0.9045,
+    "priority": 0.6206,
+    "needs_reply": 0.897
+  },
+  "machine": "arm64",
+  "note": "pure-Python Naive Bayes on a MacBook CPU, single thread"
+}
